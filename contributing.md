@@ -43,4 +43,4 @@ We *love* thorough bug reports.
 * You can try running `npm run Pylint` for style unification.
 
 ## License
-By contributing, you agree that your contributions will be licensed under its GNU License.
+By contributing, you agree that your contributions will be licensed under its GNU GPL License.
