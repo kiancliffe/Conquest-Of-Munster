@@ -1,7 +1,7 @@
 #  🏰⚔️ Conquest of Munster ⚔️🏰
 [![License: GNU General Public License v3.0](https://img.shields.io/badge/License-GPL%20v3-yellow)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-> A text-based adventure game based on Python where you name your character, choose your class and make choices on your own adventure
+> A fun, back to basics text-based adventure game based in Python where you name your character, choose your class and make choices to shape your own adventure!
 
 ## Author
 
