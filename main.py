@@ -1,69 +1,49 @@
-# Open Source Projects Assignment : Text-based Adventure Game : By Rhys, Kian & Darragh
+"""
+Open Source Projects - Final Project
+Authors: Rhys Lynch | Kian Cliffe | Darragh Foran
+Description: A python-based game engine that will create and play text-based adventure games
+"""
+# This main file will allow the user to choose their story from available stories.
+import os.path
+import time
+import os
+import engine
 
-print("\n\t| CONQUEST OF MUNSTER |\n")
-print("Welcome to the world of Munster.\nYou are an adventurer, travelling the world seeking fame and fortune.\n")
+story_folder = 'Stories'
+available_games = 0
+games_list = []
+games_showcase = []
 
+for base, dirs, files in os.walk(story_folder):
+    for file in files:
+        available_games += 1
+        games_list.append(file)
+        file = file[:-3]
+        games_showcase.append(file)
 
-# Creates character's name
-def generateName():
-    print("What is your name, Adventurer?")
-    characterName = input("> ")
-    print("Your name is " + characterName + ", is that right? (Yes|No)")
-    confirm = input("> ")  # TODO Include a character limit (20 chars)
-    if confirm.lower() == "no":
-        generateName()
-    elif confirm.lower() == "yes":
-        print("Greetings, " + characterName + "! Let's get you prepared.")
-        return characterName
+print('\nAdventures Loaded:', available_games)
+print("\nWelcome! Choose a story to begin!\n")
+
+i = 1
+for game in games_showcase:
+    print(str(i) + ".", game)
+    i += 1
+
+while 1:
+    print()
+    story_choice = input("> ")
+
+    if story_choice.isalpha():
+        print("[ERROR] input numbers only.")
+
+    elif (int(story_choice) <= 0) or (int(story_choice) > len(games_list)):
+        print("[ERROR] number not an option.")
+
     else:
-        print("I didn't quite understand you.")
-        generateName()
+        print(games_showcase[int(story_choice) - 1], "story is loading. Enjoy!")
+        time.sleep(3)
+        clearConsole = lambda: os.system('cls' if os.name in ('nt', 'dos') else 'clear')
+        clearConsole()
+        exec(open(games_list[int(story_choice)]).read())
+        engine.run(games_showcase[int(story_choice) - 1])
 
-
-# Creates character's class
-def generateClass(characterName):
-    print("What class are you? (Warrior|Rogue|Mage)")
-    characterClass = input("> ")
-    if characterClass.lower() == "warrior":
-        pass
-    elif characterClass.lower() == "rogue":
-        pass
-    elif characterClass.lower() == "mage":
-        pass
-    else:
-        generateClass(characterName)
-    print("You're a " + characterClass.lower() + ", is that right? (Yes|No)")
-    confirm = input("> ")
-    if confirm.lower() == "no":
-        generateClass(characterName)
-    elif confirm.lower() == "yes":
-        if characterClass.lower() == "warrior":
-            print("That massive blade on your back gave it away. Well met, Warrior!")
-        elif characterClass.lower() == "rogue":
-            print("Hmm... I knew my coin purse felt lighter. Well met, Rogue!")
-        elif characterClass.lower() == "mage":
-            print("Those are some fine looking robes. Well met, Mage!")
-        print("Well, " + characterName + " the " + characterClass.lower() + ", your adventure begins now. Good luck!")
-        return characterClass
-    else:
-        print("I didn't quite understand you.")
-        generateClass(characterName)
-
-
-name = generateName()
-role = generateClass(name)
-
-# Warrior Storyline
-if role == "warrior":
-    # TODO Create storyline for the warrior
-    pass
-
-# Rogue Storyline
-elif role == "rogue":
-    # TODO Create storyline for the rogue
-    pass
-
-# Mage Storyline
-elif role == "mage":
-    # TODO Create storyline for the mage
-    pass
