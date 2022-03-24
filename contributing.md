@@ -19,7 +19,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 6. Issue that pull request!
 
 ## Any contributions you make will be under the GNU Software License
-In short, when you submit code changes, your submissions are understood to be under the same [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that covers the project. Feel free to contact the maintainers if that's a concern.
+In short, when you submit code changes, your submissions are understood to be under the same [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) that covers the project. By contributing, you agree that your contributions will be licensed under the GNU GPL License. Feel free to contact the maintainers if that's a concern.
 
 ## Report bugs using Github's [issues](https://github.com/briandk/transcriptase-atom/issues)
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/kiancliffe/CYOA-Text-Based-Game/issues); it's that easy!
@@ -41,6 +41,3 @@ We *love* thorough bug reports.
 
 ## Use a Consistent Coding Style
 * You can try running `npm run Pylint` for style unification.
-
-## License
-By contributing, you agree that your contributions will be licensed under its GNU GPL License.
