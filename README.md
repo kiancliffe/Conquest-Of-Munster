@@ -1,7 +1,7 @@
 #  🏰⚔️ Conquest of Munster ⚔️🏰
 [![License: GNU General Public License v3.0](https://img.shields.io/badge/License-GPL%20v3-yellow)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
->A simple engine, that you can use to create your own text-based game!
+>A simple engine in development, that you can use to create your own basic text-based game!
 
 ## Author
 
