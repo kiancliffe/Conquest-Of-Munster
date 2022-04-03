@@ -24,3 +24,14 @@ This project is [GNU General Public License v3.0](https://www.gnu.org/licenses/g
 ## Code Of Conduct
 
 [See Code Of Conduct](https://github.com/kiancliffe/Conquest-Of-Munster/blob/main/CODE-OF-CONDUCT.md)
+
+
+## How to run the game on Windows
+
+[Install Python from the Windows store](https://www.microsoft.com/en-us/p/python-39/9p7qfqmjrfp7?activetab=pivot:overviewtab)
+
+[Download zip](https://github.com/kiancliffe/Conquest-Of-Munster)
+
+![zip](https://github.com/lukasgrabowicz/Conquest-Of-Munster/blob/main/Capture.PNG)
+
+Extract zip archive and double click the main.py.
