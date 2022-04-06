@@ -35,3 +35,8 @@ This project is [GNU General Public License v3.0](https://www.gnu.org/licenses/g
 ![zip](https://github.com/lukasgrabowicz/Conquest-Of-Munster/blob/main/Capture.PNG)
 
 Extract zip archive and double click the main.py.
+
+
+## Contributing
+
+For more information on contributing [See Contributing Guide](https://github.com/kiancliffe/Conquest-Of-Munster/blob/main/contributing.md)
