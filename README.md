@@ -5,9 +5,9 @@
 
 ## Author
 
-👤 **Rhys Lynch, Kian Cliffe, Darragh Foran**
+👤 **Rhys Lynch, Kian Cliffe**
 
-* Github: Rhys [@_SirShamrock_](https://github.com/SirShamrock), Kian [@_kiancliffe_](https://github.com/kiancliffe), Darragh [@_DForan1_](https://github.com/DForan1)
+* Github: Rhys [@_SirShamrock_](https://github.com/SirShamrock), Kian [@_kiancliffe_](https://github.com/kiancliffe)
 
 ## Show your support
 
