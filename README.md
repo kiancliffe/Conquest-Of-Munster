@@ -34,8 +34,11 @@ This project is [GNU General Public License v3.0](https://www.gnu.org/licenses/g
 
 ![zip](https://github.com/lukasgrabowicz/Conquest-Of-Munster/blob/main/Capture.PNG)
 
-Extract zip archive and double click the main.py.
+Extract zip archive and run 'template.py' (or any other game file) using command line or on an IDE.
+This will create the chapter file needed for the engine.
+Run 'engine.py' using command line or an IDE to run your loaded game.
 
+To run a different game, rerun a game file to overwrite the loaded chapter file, then run the engine file once again.
 
 ## Contributing
 
