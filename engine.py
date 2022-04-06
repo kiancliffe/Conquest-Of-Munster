@@ -20,7 +20,6 @@ def slow_text(text):
 
 # Function: Slows down text output to output only one line each time before requiring the user to press 'enter'
 def continue_text(lines: list):
-    print(lines)
     for line in lines:
         slow_text(line)
         # Forces the user to press 'enter' after each line
@@ -64,7 +63,7 @@ def play_story(game: dict):
         continue_text(page['Text'])
 
         if len(page['Options']) == 0:
-            current_page = None
+
             break
 
         current_page = create_response(page['Options'])
