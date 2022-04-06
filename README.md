@@ -16,7 +16,7 @@ Give a ⭐️ if you enjoyed this project!
 
 ## 📝 License
 
-Copyright © 2022 [Rhys Lynch](https://github.com/SirShamrock), [Kian Cliffe](https://github.com/kiancliffe), [Darragh Foran](https://github.com/DForan1).
+Copyright © 2022 [Rhys Lynch](https://github.com/SirShamrock), [Kian Cliffe](https://github.com/kiancliffe).
 
 This project is [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) licensed.
 
