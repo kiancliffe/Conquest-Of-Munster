@@ -49,7 +49,7 @@ story = {
     }
 }
 
-with open('../current_game.ch', 'wb') as chapter:
+with open('current_game.ch', 'wb') as chapter:
     pickle.dump(story, chapter)
     print("")
     print("[Game Loaded] Run 'engine.py' to begin playing!")
