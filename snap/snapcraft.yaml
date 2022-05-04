@@ -1,1 +1,20 @@
+name: conquest
+summary: Conquest of Munster
+description: |
+      Text based game
+version: git
+grade: stable
+confinement: devmode
+base: core20
+architectures:
+  - build-on: [arm64, armhf, amd64]
 
+apps:
+  conquest:
+    command: bin/engine.py
+    plugs: [home, network, network-bind, removable-media]
+
+parts:
+  conquest:
+    plugin: python
+    source: https://github.com/filegrunt/Conquest-Of-Munster
