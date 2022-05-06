@@ -10,7 +10,7 @@ setup(
     packages = ['src'],
     package_data={'src': ['description.txt']
                  },
-    install_requires=['future'],
+    install_requires=['pickle','random','sys','time'],
     entry_points = {
         'console_scripts': [
             'hello=src.app:main']
