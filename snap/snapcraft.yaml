@@ -17,4 +17,4 @@ apps:
 parts:
   conquest:
     plugin: python
-    source: https://github.com/filegrunt/Conquest-Of-Munster
+    source: https://github.com/filegrunt/Conquest-Of-Munster.git
