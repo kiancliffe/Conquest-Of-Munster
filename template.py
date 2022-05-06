@@ -3,7 +3,7 @@ import pickle
 story = {
     1: {
         'Text': [
-            "Hello!",
+            "Hello! Hit Enter to Start",
             "This is a template showing you an example of the syntax you must use to create your own game.",
         ],
         'Options': [
