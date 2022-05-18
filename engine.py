@@ -57,13 +57,11 @@ def play_story(game: dict):
         page = game.get(current_page, None)
 
         if page is None:
-
             break
 
         continue_text(page['Text'])
 
         if len(page['Options']) == 0:
-
             break
 
         current_page = create_response(page['Options'])
